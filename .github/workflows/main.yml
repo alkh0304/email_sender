@@ -15,7 +15,7 @@ jobs:
   lint-flake8:
     strategy:
       matrix:
-        version: [3.10, 3.11]
+        version: ["3.10", "3.11"]
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
